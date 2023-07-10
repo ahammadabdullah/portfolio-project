@@ -195,3 +195,64 @@ nav a{
     font-size: 20px;
 
 }
+
+/* what i do section related styles starts from here  */
+
+
+
+ .what-i-do-container h3{
+    text-align: center;
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    
+ }
+ .what-i-do-description{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 30px 80px;
+ }
+
+ .what-i-do-container{
+    margin-left: 220px;
+    margin-right: 220px;
+ }
+
+ /* skill related styles starts from here */
+.skills-container{
+    display: flex;
+    gap: 30px;
+}
+
+.skills-container h3{
+    color: var(--dark-01, #181818);
+    text-align: left;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.skills-container p{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.skill {
+    padding: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
