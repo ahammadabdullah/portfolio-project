@@ -323,3 +323,53 @@ nav a{
     text-align: center;
     margin:50px 0px 110px 0px;
 }
+
+/* footer related styles starts here  */
+
+footer{
+    background: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 110px;
+}
+
+.section-title{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.section-description{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-column{
+    width: 50%;
+    text-align: left;
+    
+}
+.icon{
+    padding-right: 25px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, textarea{
+    margin: 24px 0px 24px 0px;
+    padding: 18px 50px 18px 30px;
+    border: 0;
+}
