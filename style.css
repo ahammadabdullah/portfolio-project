@@ -16,9 +16,10 @@ header{
     background-color: #FFF8F3;
     background-image: url('./images/header_bg.png'), url('./images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom, top left;
+    background-position: right bottom, center left;
     height: 847px;
     width: 1600px;
+    padding-left: 10px;
 }
 
 .nav-container{
@@ -67,4 +68,71 @@ nav a{
     line-height: normal;
     list-style: none;
     padding-top: 55px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0px 150px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.profile-pic{
+    width: 500px;
+    padding-right: 30px;
+    padding-top: 107px;
+}
+
+.banner-greeting{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+   
+}
+
+.banner-title{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 2px;
+}
+
+.banner-description{
+    color: var(--dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+
+.btn-primary{
+    color: var(--white-color, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 18px;
+    margin-right: 25px;
+}
+
+.btn-second{
+    color: #FD6E0A;
+    
+    background: none;
+    border: 1px solid #FD6E0A;
+   
 }
