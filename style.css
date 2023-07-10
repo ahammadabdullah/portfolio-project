@@ -8,9 +8,7 @@
 
 .logo-text{
     color: #181818;
-    font-family: Open Sans;
     font-size: 45px;
-    font-style: normal;
     font-weight: 800;
     padding-top: 70px;
 }
@@ -41,16 +39,15 @@ header{
 
 nav a{
     text-decoration: none;
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
+    color: #474747;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
 }
 
 .menus{
     display: flex;
     justify-content: space-between;
+    padding-left: 200px;
 }
 
 .menu-btn{
@@ -59,15 +56,12 @@ nav a{
     border: none;
     padding: 16px 24px 16px 24px;
     color: white;
-    font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
 }
 
 .menu-li{
     
-    line-height: normal;
     list-style: none;
     padding-top: 55px;
 }
@@ -90,39 +84,31 @@ nav a{
 }
 
 .banner-greeting{
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
+    color:  #474747;
     font-size: 45px;
-    font-style: normal;
     font-weight: 600;
     padding-left: 2px;
 }
 
 .banner-title{
-    color: var(--dark-01, #181818);
-    font-family: Open Sans;
+    color: #181818;
     font-size: 85px;
-    font-style: normal;
     font-weight: 700;
     padding-bottom: 2px;
 }
 
 .banner-description{
-    color: var(--dark-03, #757575);
-    font-family: Open Sans;
+    color:  #757575;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding-bottom: 25px;
 }
 
 .btn-primary{
-    color: var(--white-color, #FFF);
+    color:  #FFF;
     text-align: center;
-    font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     border-radius: 5px;
     background: #FD6E0A;
@@ -152,21 +138,17 @@ nav a{
 
 
 .about-title{
-    color: var(--dark-01, #181818);
+    color:  #181818;
     text-align: center;
-    font-family: Open Sans;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
     padding-top: 130px;
 }
 
 .about-description{
-    color: var(--dark-03, #757575);
+    color: #757575;
     text-align: center;
-    font-family: Open Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     padding: 30px 140px;
@@ -181,9 +163,7 @@ nav a{
 .info-title{
     color: #757575;
     text-align: center;
-    font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
@@ -202,19 +182,15 @@ nav a{
 
  .what-i-do-container h3{
     text-align: center;
-    color: var(--dark-01, #181818);
-    font-family: Open Sans;
+    color:  #181818;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
     
  }
  .what-i-do-description{
-    color: var(--dark-03, #757575);
+    color:  #757575;
     text-align: center;
-    font-family: Open Sans;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     padding: 30px 80px;
  }
@@ -231,21 +207,17 @@ nav a{
 }
 
 .skills-container h3{
-    color: var(--dark-01, #181818);
+    color:  #181818;
     text-align: left;
-    font-family: Open Sans;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
     padding-top: 25px;
     padding-bottom: 20px;
 }
 
 .skills-container p{
-    color: var(--dark-03, #757575);
-    font-family: Open Sans;
+    color:  #757575;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
 }
@@ -258,13 +230,10 @@ nav a{
 }
 
 .resume-title{
-    color: var(--dark-01, #181818);
+    color: #181818;
     text-align: center;
-    font-family: Open Sans;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-top: 130px;
     padding-bottom: 120px;
 }
@@ -279,38 +248,29 @@ nav a{
 .resume-column-title{
     color:#474747;
     font-size: 30px;
-    font-style: normal;
     font-weight: 700;
     padding-bottom: 30px;
    
 }
 .resume-item-title{
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
+    color:#474747;
     font-size: 25px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     padding-bottom: 10px;
 }
 
 .resume-item-institute{
-    color: var(--dark-03, #757575);
-    font-family: Open Sans;
+    color: #757575;
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
     padding-bottom: 20px;
 }
 
 
 
 .resume-item p{
-    color: var(--dark-03, #757575);
-    font-family: Open Sans;
+    color: #757575;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
 
@@ -334,20 +294,16 @@ footer{
 }
 
 .section-title{
-    color: var(--dark-01, #181818);
-    font-family: Open Sans;
+    color:#181818;
     font-size: 35px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     padding-top: 20px;
 }
 
 .section-description{
-    color: var(--dark-02, #474747);
-    font-family: Open Sans;
+    color:#474747;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 28px;
     padding-top: 20px;
@@ -369,7 +325,7 @@ footer{
 }
 
 .contact input, textarea{
-    margin: 24px 0px 24px 0px;
+    margin-top: 24px;
     padding: 18px 50px 18px 30px;
     border: 0;
 }
